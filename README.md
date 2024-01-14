@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# User Listing React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React project that lists user data fetched from a random user API. The project includes features such as gender filtering, client-side and server-side pagination, search functionality, and a page to display individual user profiles.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- npm: Included with Node.js installation
+- TypeScript: [Install TypeScript](https://www.typescriptlang.org/download)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository and install dependencies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- git clone https://github.com/Zakaullah-Javaid/Assesment-Frontend.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. cd Assesment-Frontend
+
+- npm install
+
+3. Running the Project
+   
+- npm run dev
+
+4. The project will be available at http://localhost:5173
+
+# Features
+
+- User Listing
+  
+ User data is fetched from the Random User API.
+
+ Gender filtering is implemented to display users based on their gender.
+
+# Pagination
+
+- Client-side and server-side pagination are both implemented for efficient data handling.
+
+# Search Functionality
+
+- Users can search for specific individuals on the client side.
+Individual User Profiles
+
+- Clicking on the profile icon allows users to view detailed information about an individual user.
